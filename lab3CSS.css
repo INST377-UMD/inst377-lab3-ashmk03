@@ -1,0 +1,76 @@
+body {
+    background-color: #f2dceb;
+    font-family: "Lucida Console"
+  }
+  
+  #bar {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: #f4b8ff;
+    padding: 10px;
+    clear: both;
+  }
+  
+  #main-nav {
+    background-color: rgb(255, 121, 148);
+    text-align: center;
+  }
+  
+  #main-nav li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #main-nav li:hover {
+    background-color: #ff9090;
+    color: white;
+  }
+  
+  #main-nav ul ul {
+    display: none;
+    position: absolute;
+  }
+  
+  #main-nav ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .content-area {
+    width: 60%;
+    float: left;
+    margin: 0;
+  }
+  
+  .content-box {
+    text-align: center;
+    background-color: rgb(196, 223, 246);
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+  }
+
+  #InstructionsSide {
+    text-align: center;
+    background-color: rgb(13, 107, 165);
+    float: right;
+    width: 35%;
+    border-radius: 15px;
+    margin-right: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px
+  }
+
+  #InstructionsSide:hover {
+    background-color: #90cdff;
+    color: white
+  }
+
+  input:focus {
+    background-color: rgb(191, 222, 226);
+    width: 250px;
+  }
+  
